@@ -1,0 +1,65 @@
+{
+  "file": "15_DECILES.sas",
+  "unresolved_rules": [
+    {
+      "line": 27,
+      "score": "ZXNOTA",
+      "decile_variable": "A_DECILE_DEMAND",
+      "previous_decile": 6,
+      "blocking_threshold": 4980.0,
+      "decile": 7,
+      "threshold": 4309.0,
+      "issue": "Non-increasing cut point makes this branch unreachable"
+    },
+    {
+      "line": 28,
+      "score": "ZXNOTA",
+      "decile_variable": "A_DECILE_DEMAND",
+      "previous_decile": 7,
+      "blocking_threshold": 4980.0,
+      "decile": 8,
+      "threshold": 4669.0,
+      "issue": "Non-increasing cut point makes this branch unreachable"
+    },
+    {
+      "line": 41,
+      "score": "ZXNOTA",
+      "decile_variable": "A_DECILE_DEMAND",
+      "previous_decile": 6,
+      "blocking_threshold": 4980.0,
+      "decile": 7,
+      "threshold": 4309.0,
+      "issue": "Non-increasing cut point makes this branch unreachable"
+    },
+    {
+      "line": 42,
+      "score": "ZXNOTA",
+      "decile_variable": "A_DECILE_DEMAND",
+      "previous_decile": 7,
+      "blocking_threshold": 4980.0,
+      "decile": 8,
+      "threshold": 4669.0,
+      "issue": "Non-increasing cut point makes this branch unreachable"
+    },
+    {
+      "line": 523,
+      "score": "ZXNOTA",
+      "decile_variable": "F_DECILE_BOOKED_F",
+      "previous_decile": 7,
+      "blocking_threshold": 664.0,
+      "decile": 8,
+      "threshold": 655.0,
+      "issue": "Non-increasing cut point makes this branch unreachable"
+    },
+    {
+      "line": 547,
+      "score": "ZXNOTA",
+      "decile_variable": "F_DECILE_BOOKED_F",
+      "previous_decile": 4,
+      "blocking_threshold": 565.0,
+      "decile": 5,
+      "threshold": 550.0,
+      "issue": "Non-increasing cut point makes this branch unreachable"
+    }
+  ]
+}

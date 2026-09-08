@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+tests/*.log
+tests/*.lst
+
+# Local configuration, credentials and generated SAS data
+00_SETUP.local.sas
+*.local.sas
+.env
+.env.*
+.DS_Store
+*.sas7bdat
+*.sas7bndx
+*.sas7bvew
+*.sas7bcat
+*.log
+*.lst
